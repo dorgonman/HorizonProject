@@ -1,0 +1,6 @@
+[submodule "HorizonCore"]
+	path = HorizonCore
+	url = https://github.com/dorgonman/HorizonCore.git
+[submodule "HorizonScript"]
+	path = HorizonScript
+	url = https://github.com/dorgonman/HorizonScript.git
