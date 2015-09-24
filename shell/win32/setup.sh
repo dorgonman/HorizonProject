@@ -1,10 +1,10 @@
 #!/bin/sh
 set -e
-echo "==============START register HORIZON_SCRIPT_ROOT path======================"
-pushd ../../HorizonScript
-CMD "/C setx HORIZON_SCRIPT_ROOT %cd%"
+echo "==============START register HORIZON_BUILD_TOOL_ROOT path======================"
+pushd ../../HorizonBuildTool
+CMD "/C setx HORIZON_BUILD_TOOL_ROOT %cd%"
 popd
-echo "==============END register HORIZON_SCRIPT_ROOT path======================"
+echo "==============END register HORIZON_BUILD_TOOL_ROOT path======================"
 echo "===============START build and Register BOOST_ROOT path====================="
 
 #check boost folder exist, if not, download from official site
