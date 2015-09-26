@@ -4,3 +4,6 @@
 [submodule "HorizonBuildTool"]
 	path = HorizonBuildTool
 	url = https://github.com/dorgonman/HorizonBuildTool.git
+[submodule "thirdparty/libsoci/soci"]
+	path = thirdparty/libsoci/soci
+	url = https://github.com/dorgonman/soci.git
